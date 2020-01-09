@@ -145,16 +145,3 @@ public partial class PanelMainUIController : UIControllerBase
     }
     #endregion
 }
-
-/// <summary>
-/// UI层级
-/// </summary>
-public enum UILayer : int
-{
-    Debug = 0,
-    BackGround = 1,
-    Bottom = 2,
-    PopupWindow = 3,
-    PopupTip = 4,
-    Top = 5,
-}
